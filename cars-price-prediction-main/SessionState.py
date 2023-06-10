@@ -3,7 +3,7 @@
 """Hack to add per-session state to Streamlit.
 Works for Streamlit >= v0.65
 Usage
------
+-----          
 >>> import SessionState
 >>>  
 >>> session_state = SessionState.get(user_name='', favorite_color='black')
